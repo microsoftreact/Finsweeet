@@ -1,0 +1,204 @@
+/* Font Inter */
+
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 1366px;
+    min-height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* navbar */
+
+nav {
+    width: 100%;
+    height: 80px;
+    background: #232536;
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.header-navbar-logo-title {
+    font-weight: 700;
+    font-size: 28px;
+    color: #ffffff;
+    margin-right: 500px;
+}
+
+.header-navbar-links {
+    display: flex;
+    gap: 18px;
+}
+
+.header-navbar-links a {
+    position: relative;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    transition: .5s;
+}
+
+.header-navbar-links a:active {
+    scale: 0.9;
+}
+
+/* .header-navbar-links a::before {
+    content: "";
+    width: 0%;
+    height: 0.325vh;
+    background: orange;
+    position: absolute;
+    top: -8px;
+    left: 0px;
+    transition: .5s;
+}
+
+.header-navbar-links a:hover::before {
+    width: 100%;
+} */
+
+.header-navbar-links a::after {
+    width: 0%;
+    height: 0.325vh;
+    background: #FFD050;
+    position: absolute;
+    content: "";
+    bottom: -8px;
+    left: 0px;
+    transition: .5s;
+}
+
+.header-navbar-links a:hover::after {
+    width: 100%;
+}
+
+.header-navbar-links a:nth-child(4) {
+    margin-right: 50px;
+}
+
+.header-navbar-login button {
+    background: #ffffff;
+    padding: 15px 45px;
+    font-weight: 700;
+    font-size: 18px;
+    transition: .5s;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.header-navbar-login button:active {
+    background: rgba(229, 226, 226, 0.73);
+    scale: 0.9;
+}
+
+.header-navbar-login button a {
+    color: #232536;
+    transition: .5s;
+}
+
+.header-navbar-login button a:active {
+    scale: 0.9;
+}
+
+.header-posted {
+    height: 800px;
+    background-image: url(../images/header-background.png);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    padding-top: 180px;
+    padding-left: 83px;
+}
+
+.header-posted-title {
+    width: 60%;
+    position: fixed;
+    z-index: 1;
+}
+
+.header-posted-title h3 {
+    color: #ffffff;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.header-posted-title h3 span {
+    font-weight: 700;
+}
+
+.header-posted-title h1 {
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 64px;
+    padding-bottom: 20px;
+}
+
+.user-information {
+    padding-bottom: 20px;
+    color: #ffffff;
+}
+
+.user-information span {
+    color: #FFD050;
+}
+
+.header-posted-title-text {
+    width: 75%;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #ffffff;
+    padding-bottom: 40px;
+}
+
+.header-posted-title button {
+    padding: 20px 70px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    cursor: pointer;
+    background: #FFD050;
+    border: none;
+    outline: none;
+    transition: .5s;
+}
+
+.header-posted-title button a {
+    color: #232536;
+    transition: .5s;
+}
+
+.header-posted-title button a:active {
+    scale: 0.9;
+}
+
+.header-posted-title button:active {
+    scale: 0.9;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(3, 3, 3, 0.5);
+    z-index: 0;
+}
