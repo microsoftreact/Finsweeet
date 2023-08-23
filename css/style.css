@@ -46,8 +46,8 @@ nav {
 
 .header-navbar-links {
     display: flex;
-    gap: 18px;
-    margin-left: 500px;
+    gap: 20px;
+    margin-left: 350px;
 }
 
 .header-navbar-links a {
@@ -90,10 +90,6 @@ nav {
 
 .header-navbar-links a:hover::after {
     width: 100%;
-}
-
-.header-navbar-links a:nth-child(4) {
-    margin-right: 50px;
 }
 
 .header-navbar-login button {
@@ -271,20 +267,6 @@ nav {
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
-    transition: .5s;
-}
-
-.main-category-title:active {
-    scale: 0.9;
-}
-
-.main-category-title a {
-    color: #232536;
-    transition: .5s;
-}
-
-.main-category-title a:active {
-    color: #ffd050;
 }
 
 .main-category-card-one,
@@ -321,6 +303,13 @@ nav {
 .main-category-card-four-title {
     padding-bottom: 15px;
     padding-top: 15px;
+}
+
+.main-category-card-one-link,
+.main-category-card-two-link,
+.main-category-card-three-link,
+.main-category-card-four-link {
+    color: #232536;
 }
 
 .main-category-card-one-text,
@@ -443,12 +432,14 @@ footer {
 .category-card-four {
     display: flex;
     gap: 40px;
+    margin-bottom: 45px;
 }
 
 .business-link {
     color: #592EA9;
     font-weight: 600;
     letter-spacing: 3px;
+    text-transform: uppercase;
 }
 
 .business-title {
@@ -484,4 +475,31 @@ footer {
 .main-control-link:active {
     scale: 0.9;
     color: #6D6E76;
+}
+
+/* ALL POSTS */
+
+.all-project-posts {
+    width: 100%;
+    padding-left: 83px;
+    padding-right: 83px;
+}
+
+.main-all-posts {
+    padding-bottom: 40px;
+    border-bottom: 1px solid #d3d4d6;
+}
+
+.main-all-posts-title {
+    font-size: 40px;
+    color: #232536;
+}
+
+.main-all-post-cards {
+    margin-top: 80px;
+}
+
+.all-post-title {
+    font-size: 25px;
+    line-height: 35px;
 }
