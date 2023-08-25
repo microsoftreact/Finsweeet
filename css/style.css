@@ -503,3 +503,178 @@ footer {
     font-size: 25px;
     line-height: 35px;
 }
+
+/* BLOG POST */
+
+.main-blog-posts {
+    width: 100%;
+    padding-left: 83px;
+    padding-right: 296px;
+    margin-top: 50px;
+}
+
+main .blog-posts-img img {
+    width: 1200px;
+}
+
+.blog-posts-information {
+    width: 100%;
+    padding-top: 50px;
+    padding-left: 296px;
+}
+
+.blog-post-user-information {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 30px;
+}
+
+.blog-post-username-title {
+    color: #592EA9;
+    line-height: 35px;
+}
+
+.blog-post-username-text {
+    color: #6D6E76;
+}
+
+.blog-post-title {
+    padding-bottom: 30px;
+}
+
+.blog-posts-startup-link {
+    display: flex;
+    gap: 5px;
+    padding-bottom: 50px;
+}
+
+.blog-posts-startup-link h3 a {
+    color: #232536;
+}
+
+.blog-posts-startup-text {
+    padding-bottom: 50px;
+}
+
+.startup-text-one {
+    padding-bottom: 20px;
+    line-height: 28px;
+    color: #6D6E76;
+}
+
+.startup-text-two {
+    line-height: 28px;
+    color: #6D6E76;
+}
+
+/* ABOUT-US */
+.header-about-us {
+    width: 100%;
+    padding-left: 83px;
+    padding-right: 83px;
+    margin-top: 50px;
+}
+
+.header-aboutus-card {
+    display: flex;
+    gap: 50px;
+    background-color: #F4F0F8;
+}
+
+.aboutus-mission,
+.aboutus-vision {
+    padding: 40px;
+}
+
+.aboutus-mision-link,
+.aboutus-vision-link {
+    letter-spacing: 3px;
+    color: #232536;
+    font-weight: 600;
+}
+
+.aboutus-mision-title,
+.aboutus-vision-title {
+    color: #232536;
+    font-size: 28px;
+    letter-spacing: -1px;
+    line-height: 40px;
+    padding-top: 13px;
+}
+
+.aboutus-text {
+    color: #232536;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+
+.aboutus-vision-title {
+    font-size: 29px;
+}
+
+.aboutus-our-team,
+.aboutus-our-blog {
+    width: 100%;
+    padding: 80px 83px;
+    display: flex;
+    gap: 50px;
+}
+
+.aboutus-our-team-information,
+.aboutus-our-blog-information {
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.our-team-information-title,
+.our-blog-information-title {
+    color: #232536;
+    font-size: 36px;
+}
+
+.our-team-information-theme,
+.our-blog-information-theme {
+    line-height: 32px;
+    font-size: 24px;
+    color: #232536;
+}
+
+.our-team-information-text,
+.our-blog-information-text {
+    line-height: 28px;
+    color: #232536;
+}
+
+.aboutus-our-team-image,
+.aboutus-our-blog-image {
+    position: relative;
+}
+
+.shapes-figure {
+    position: absolute;
+    width: 103px;
+    height: 116px;
+    background-color: #FFD050;
+    top: 25%;
+    left: -9%;
+    border-radius: 50px 0 0 0;
+}
+
+.aboutus-our-blog {
+    flex-direction: row-reverse;
+}
+
+.circle-figure {
+    width: 74px;
+    height: 74px;
+    border-radius: 50%;
+    position: absolute;
+    left: 20%;
+    bottom: -8%;
+    background-color: #592EA9;
+}
